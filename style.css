@@ -64,15 +64,15 @@ margin-top: 0px;
 .hotel-main-headline{
 margin: 30px 0 30px 0;
 }
-.hotel-headline {
+.hotel-barcelonia-headline {
 color: white;
-font-size: 36pt;
+font-size: 46pt;
 font-weight:bold;
-line-height: 20pt;
+line-height: 25pt;
 }
-.special-headline {
+.special-hotel-headline {
 font-family: "Times New Roman", Times, serif;
-font-size: 16pt;
+font-size: 22pt;
 font-weight:bold;
 color: rgb(242, 216, 65);
 }
