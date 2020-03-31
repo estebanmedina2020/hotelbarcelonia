@@ -9,8 +9,34 @@
 			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 			  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '250px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+</script>
 </head>
 <body>
+  <span class="slide">
+    <a href="#" onclick="openSlideMenu()">
+      <i class="fas fa-bars"></i>
+    </a>
+  </span>
+
+  <div id="menu" class="nav">
+    <a href="#" class="close" onclick="closeSlideMenu()">
+      <i class="fas fa-times"></i>
+    </a>
+    <a href="#">Inicio</a>
+    <a href="#">Historia</a>
+    <a href="#">Servicios</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contacto</a>
+  </div>
   <header>
   <div class="hotel-main-headline"><p class="hotel-barcelonia-headline"><span class="special-hotel-headline">Hotel</span><br>Barcelonia</p></div>
 <img class="hotel-img-01"
