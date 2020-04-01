@@ -1,3 +1,6 @@
+img {
+max-width:100%;
+}
 .rooms {
 display: flex;
 flex-direction: row;
@@ -28,7 +31,7 @@ body
 font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
 margin: 0;
 }
-header {
+section {
 width: 100%;
 float: left;
 padding: 0px 0px 80px 0px;
