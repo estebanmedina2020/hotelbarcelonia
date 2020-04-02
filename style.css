@@ -67,29 +67,25 @@ left: 60%;
 width: 27%;
 margin: 40px 0 15px 0;
 }
-ul {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: center;
-}
 li{
-padding: 20px;
+padding: 10px;
 }
-a:link {
-color: #0dc4c4;
+a:link{
+font-size:14px;
+text-decoration: none;
+}
+.hotel-link {
+color: #106891;
 font-family:Arial;
-font-size:12px;
-text-decoration:none;
 }
-a:visited {
+.hotel-link:visited {
 color: yellow;
 }
-a:hover {
-color: #042a3b;
+.hotel-link:hover {
+color: #2e0313;
 }
-a:active {
-color: yellow;
+.hotel-link:active {
+color: #106891;
 }
 p{
 color: #0d8d8d;
