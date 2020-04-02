@@ -71,10 +71,11 @@ li{
 padding: 10px;
 }
 a:link{
-font-size:14px;
+font-size:18px;
 text-decoration: none;
 }
 .hotel-link {
+font-size:10px;
 color: #106891;
 font-family:Arial;
 }
