@@ -71,22 +71,27 @@ li{
 padding: 10px;
 }
 a:link{
-font-size:18px;
+font-size:16px;
+color: yellow;
 text-decoration: none;
 }
+a:active {
+color: yellow;
+}
 .hotel-link {
-font-size:10px;
-color: #106891;
+font-size:12px !important;
+color: #106891 !important;
 font-family:Arial;
 }
 .hotel-link:visited {
 color: yellow;
 }
 .hotel-link:hover {
-color: #2e0313;
+color: yellow !important;
+text-decoration: none;
 }
 .hotel-link:active {
-color: #106891;
+color: #106891 !important;
 }
 p{
 color: #0d8d8d;
